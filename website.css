@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(222, 79, 100);
+}
+body{
+    background-image: url(tree.jpg);
+    background-color: rgb(200, 226, 226);
+    color:red;
+    height: 100vh;
+    width: 100vw;
+}
+ul{
+    font-size:x-large;
+    position: relative;
+    left:4vw;
+    top:3vh;
+    color:red;
+    list-style:square;
+}
+.khogen{
+    color:blue;
+    animation: widthanimate 9s linear infinite forwards;
+}
+@keyframes widthanimate{
+    0%{
+        transform: translate(-10vw);
+    }
+    100%{
+        transform: translate(80vw);
+    }  
+}
+.about{
+    display:inline-block;
+    text-align: center;
+    border-radius: 15vh;
+    border: 6vh ridge ;
+    height:50vh;
+    width:45vw;
+    background-color: rgb(238, 206, 127);
+    color:blueviolet;
+    position: relative;
+    left: 22vw;
+    bottom: 26vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    position:relative;
+    bottom:87vh;
+    left:75vw;
+    height:80vh;
+    width:25vw;
+    background-color:black;
+    color:whitesmoke;
+    text-align: center;
+}
+h3{
+    color:blue;
+}
